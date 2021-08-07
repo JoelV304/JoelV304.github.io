@@ -1,0 +1,84 @@
+header {
+  text-align: center;
+  font: Georgia;
+  color: white;
+  background-image: url("https://wallpaperaccess.com/full/2789327.jpg");
+  background-size: cover;
+}
+img {
+  border-radius: 30px;
+}
+h1 {
+  font-size: 60px;
+}
+body {
+  background-image: url("https://wallpapercave.com/wp/wp2757868.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+li  {
+  text-align: center;
+  color: white;
+  display: inline;
+  padding: 15px 25px;
+}
+.insta  {
+  width: 5.5%;
+  height: 5.5%;
+}
+.cornell  {
+  width: 5.5%;
+  height: 5.5%;
+}
+.youtube  {
+  width: 5.5%;
+  height: 5.5%;
+}
+article {
+  max-width: 500px;
+  position: center;
+  margin: auto;
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0,0,0,0.5)
+}
+#personal  {
+  width: 30%;
+  height: 30%
+}
+#uzi  {
+  position: relative;
+  width: 30%;
+  height: 10%;
+  padding: 20px 20px;
+}
+#cudi {
+  width: 30%;
+  height: 30%;
+  margin-right: 7%
+}
+button {
+  height: 30px;
+  width: 100px;
+  margin: 0 auto;
+}
+form{
+  margin: 10px 0px;
+}
+#firstUL {
+  margin-bottom: 0;
+}
+#secondUL {
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.3);
+}
+.link {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+#subbutton {
+  background-color: rgba(13, 194, 52, 0.747);
+}
