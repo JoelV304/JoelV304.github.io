@@ -96,14 +96,27 @@ a:hover {
   width: 5%;
 }
 .Calculator {
-  height: 25%;
-  width: 25%;
+  height: 22%;
+  width: 22%;
 }
 .ReportCard {
-  height: 25%;
-  width: 25%;
+  height: 22%;
+  width: 22%;
 }
 .GreaterThan {
   height: 8%;
   width: 5%;
+}
+table {
+  margin: auto;
+}
+td {
+  text-align: center;
+}
+th {
+  color: white;
+  text-align: center;
+}
+#annoyance {
+  width: 30%;
 }
