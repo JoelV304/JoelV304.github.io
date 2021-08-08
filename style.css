@@ -36,7 +36,6 @@ li  {
 }
 article {
   max-width: 500px;
-  position: center;
   margin: auto;
   border-radius: 12px;
   padding: 10px;
@@ -90,5 +89,21 @@ a:hover {
 }
 .TKH {
   height: 5%;
+  width: 5%;
+}
+.Apple {
+  height: 5%;
+  width: 5%;
+}
+.Calculator {
+  height: 25%;
+  width: 25%;
+}
+.ReportCard {
+  height: 25%;
+  width: 25%;
+}
+.GreaterThan {
+  height: 8%;
   width: 5%;
 }
