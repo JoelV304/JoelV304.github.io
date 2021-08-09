@@ -120,3 +120,6 @@ th {
 #annoyance {
   width: 30%;
 }
+.quizForm {
+  display: block;
+}
