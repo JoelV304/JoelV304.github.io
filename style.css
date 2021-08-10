@@ -35,6 +35,7 @@ li  {
   height: 5.5%;
 }
 article {
+  text-align: center;
   max-width: 500px;
   margin: auto;
   border-radius: 12px;
@@ -122,4 +123,10 @@ th {
 }
 .quizForm {
   display: block;
+}
+#logo {
+  height: 3%;
+  width: 3%;
+  display: block;
+  margin: 90px 0px 0px auto;
 }

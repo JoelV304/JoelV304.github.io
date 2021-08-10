@@ -1,14 +1,14 @@
-function hoverGrow(){
-  var grow= document.getElementById('grow').style.width= '20%'
+function hoverGrow() {
+  var grow = document.getElementById('grow').style.width = '15%'
 }
-function hoverShrink(){
-  var shrink= document.getElementById('grow').style.width= "9%"
+function hoverShrink() {
+  var shrink = document.getElementById('grow').style.width = "10%"
 }
-function getFormValue(){
-  var fname= document.getElementById('fname').value
-  document.getElementById('nameDisplay').innerHTML= 'Hey, ' + fname;
+function getFormValue() {
+  var fname = document.getElementById('fname').value
+  document.getElementById('nameDisplay').innerHTML = 'Hey, ' + fname;
   var formDel = document.getElementById("form");
-formDel.remove();
+  formDel.remove();
   var buttonDel = document.getElementById("subbutton");
-buttonDel.remove();
+  buttonDel.remove();
 }
