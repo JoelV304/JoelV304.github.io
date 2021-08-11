@@ -29,14 +29,27 @@
   </header>
   <body>
     <article>
-
-      <h5 id="nameDisplay"></h5>
-        <form id='form'> Your Name: <input type='text' id='fname'></form>
-        <input type='button' value='Submit' onclick='getFormValue()'id= 'subbutton'>
-      <br>
-     My name is Joel, I'm a student at the KKCF fellowship with the Knowledge House <img src='images/Khouse.png' class= 'TKH'> for this summer. I'm an immigrant from the Dominican Republic that emigrated to the U.S when I was about 8 years old. Now I'm headed off to Cornell University <img src='images/Cornell.png' class='cornell'> as a freshman. Along the way, I worked for New York City's Test & Trace Corp to get dozens of New Yorkers vaccinated and held other notable roles in my high school like being the president and founder of our Black Student Union. In the future, I'm interested in a career in Software development. I would love to work for Apple <img src='images/Apple.png' class='Apple'> to design iOS apps because I just love their design style and I want to work in mobile app development.
-   </article>
-   <img src= 'images/Elephant_Logo.png' id='logo'>
+        <h5>Guess some of my biggests interests!</h5>
+        <h6>Question 1:</h6>
+          <div id="quiz">
+            <input type="radio" id="martialArts" name='q1' value="Martial Arts" checked>
+            <label for="martialArts">Martial Arts</label><br>
+            <input type="radio" id="fitness" name='q1' value="Fitness">
+            <label for="fitness">Fitness</label><br>
+            <input type='radio' id='painting' name='q1' value='Painting'> <label for='painting'>Painting</label><br>
+         <h6 id='question2'>Question 2:</h6>
+            <input type= 'radio'id='netflix' name='q2' value='Netflix Shows' checked> <label for='netflix'>Netflix Shows</label><br>
+            <input type='radio' id='gaming' name='q2' value='Gaming'>
+            <label for='gaming'> Gaming</label><br>
+            <input type='radio' id='basketball' name='q2' value='Basketball'> <label for='basketball'>Basketball</label><br>
+          </div>
+          <div>
+            <button id="submithob" onclick='getQuizValue()'>Submit</button>
+          <div>
+        
+      <div id="results"></div>
+    </article>
+    <img src= 'images/Elephant_Logo.png' id='logo'>
     <script src="script.js"></script>
   </body>
-</html>
+  </html>
