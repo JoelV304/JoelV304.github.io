@@ -2,7 +2,7 @@ header {
   text-align: center;
   font: Georgia;
   color: white;
-  background-color: #403F4C;
+  background-color: #002400;
   background-size: cover;
 }
 #grow {
@@ -12,7 +12,7 @@ h1 {
   font-size: 60px;
 }
 body {
-  background-color: #B28B84;
+  background-color: #3B590D;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -96,17 +96,19 @@ a:hover {
   height: 5%;
   width: 5%;
 }
-.Calculator {
+#Calculator {
   height: 22%;
   width: 22%;
+  max-width: 70%;
 }
-.ReportCard {
-  height: 22%;
-  width: 22%;
+#ReportCard {
+  height: 33%;
+  width: 7%;
 }
-.GreaterThan {
+#GreaterThan {
   height: 8%;
-  width: 5%;
+  width: 10%;
+  margin: 0;
 }
 table {
   margin: auto;
@@ -132,9 +134,12 @@ th {
   height: 3%;
   width: 3%;
   display: block;
-  margin: 90px 0px 0px auto;
+  margin: 14% 0px 0px auto;
 }
 #grow {
   height: 10%;
   width: 10%;
+}
+.projectimg {
+  vertical-align: middle;
 }
