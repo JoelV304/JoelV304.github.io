@@ -13,10 +13,10 @@
 	<img src="https://i.imgur.com/8S7cLrSt.jpg?1" title="source: imgur.com" id='grow' onmouseover="hoverGrow()" onmouseout="hoverShrink()"/></a>
     <h1> About Me</h1>
     <ul id='firstUL'>
-      <li><a href=https://www.linkedin.com/in/joel-valerio-0236891a9/><img src="images/Linkedin.png" class="linkedin"></a></li>
+      <li><a href=https://www.linkedin.com/in/joel-valerio-0236891a9/><img src="images/Linkedin.png" id="linkedin" onmouseover='linkGrow()' onmouseout="linkShrink()"></a></li>
       <li>
-        <a href=https://www.youtube.com/channel/UCnYwBX-6xA-a9vLnMclO0sA><img src="images/Youtube.png" class="youtube"></a></li>
-      <li><a href=https://www.instagram.com/joel._.valerio/><img src="images/Instagram.png" class="insta"></a></li>
+        <a href=https://www.youtube.com/channel/UCnYwBX-6xA-a9vLnMclO0sA><img src="images/Youtube.png" id="youtube" onmouseover='youGrow()' onmouseout='youShrink()'></a></li>
+      <li><a href=https://www.instagram.com/joel._.valerio/><img src="images/Instagram.png" id="insta" onmouseover='instaGrow()' onmouseout='instaShrink()'></a></li>
       </ul>
       <ul id='secondUL'>
         <li><a href= 'projects.HTML' class='link' style="text-decoration: none; ">Projects
@@ -31,13 +31,12 @@
     <article>
 
       <h5 id="nameDisplay"></h5>
-        <form id='form'> First Name: <input type='text' id='fname'></form>
+        <form id='form'> Your Name: <input type='text' id='fname'></form>
         <input type='button' value='Submit' onclick='getFormValue()'id= 'subbutton'>
       <br>
      My name is Joel, I'm a student at the KKCF fellowship with the Knowledge House <img src='images/Khouse.png' class= 'TKH'> for this summer. I'm an immigrant from the Dominican Republic that emigrated to the U.S when I was about 8 years old. Now I'm headed off to Cornell University <img src='images/Cornell.png' class='cornell'> as a freshman. Along the way, I worked for New York City's Test & Trace Corp to get dozens of New Yorkers vaccinated and held other notable roles in my high school like being the president and founder of our Black Student Union. In the future, I'm interested in a career in Software development. I would love to work for Apple <img src='images/Apple.png' class='Apple'> to design iOS apps because I just love their design style and I want to work in mobile app development.
    </article>
    <img src= 'images/Elephant_Logo.png' id='logo'>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>

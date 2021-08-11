@@ -1,5 +1,5 @@
 function hoverGrow() {
-  var grow = document.getElementById('grow').style.width = '15%'
+  var grow = document.getElementById('grow').style.width = '11%'
 }
 function hoverShrink() {
   var shrink = document.getElementById('grow').style.width = "10%"
@@ -11,4 +11,28 @@ function getFormValue() {
   formDel.remove();
   var buttonDel = document.getElementById("subbutton");
   buttonDel.remove();
+}
+function linkGrow() {
+  var linkGrow= document.getElementById('linkedin').style.width= '5%'
+  var linkGrow= document.getElementById('linkedin').style.height= '5%'
+}
+function linkShrink() {
+  var linkShrink= document.getElementById('linkedin').style.width= '4%'
+  var linkShrink= document.getElementById('linkedin').style.height= '4%'
+}
+function youGrow() {
+  var youGrow= document. getElementById('youtube').style.width= '6.5%'
+  var youGrow= document. getElementById('youtube').style.height= '6.5%'
+}
+function youShrink() {
+  var youShrink= document.getElementById('youtube').style.width= '5.5%'
+  var youShrink= document.getElementById('youtube').style.height= '5.5%'
+}
+function instaGrow() {
+  var instaGrow= document.getElementById('insta').style.width= '6%'
+  var instaGrow= document.getElementById('insta').style.height= '6%'
+}
+function instaShrink() {
+  var instaShrink= document.getElementById('insta').style.width= '5%'
+  var instaShrink= document.getElementById('insta').style.height= '5%'
 }
