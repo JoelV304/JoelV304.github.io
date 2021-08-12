@@ -1,8 +1,10 @@
 function hoverGrow() {
   var grow = document.getElementById('grow').style.width = '11%'
+  var grow = document.getElementById('grow').style.transitionDuration= '0.15s'
 }
 function hoverShrink() {
   var shrink = document.getElementById('grow').style.width = "10%"
+  var shrink = document.getElementById('grow').style.transitionDuration= '0.15s'
 }
 function getFormValue() {
   var fname = document.getElementById('fname').value;  document.getElementById('nameDisplay').innerHTML = 'Hey, ' + fname;
