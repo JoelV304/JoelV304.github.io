@@ -129,13 +129,6 @@ th {
 .quizForm {
   display: block;
 }
-#logo {
-  text-align: end;
-  height: 3%;
-  width: 3%;
-  display: block;
-  margin: 14% 0px 0px auto;
-}
 #grow {
   height: 10%;
   width: 10%;
@@ -197,4 +190,15 @@ th {
 }
 #submithob {
   background-color: #1A936F;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: end;
+}
+#logo {
+  height: 3%;
+  width: 3%;
 }
