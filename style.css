@@ -6,7 +6,7 @@ header {
   background-size: cover;
 }
 #grow {
-  border-radius: 30px;
+  border-radius: 20px;
 }
 h1 {
   font-size: 60px;
@@ -127,6 +127,7 @@ th {
   height: 20%;
   padding-top: 0px;
   margin-top: 10px;
+  max-height: 20%;
 }
 .quizForm {
   display: block;
