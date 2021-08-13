@@ -32,22 +32,23 @@
         <h5>Guess some of my biggests interests!</h5>
         <h6>Question 1:</h6>
           <div id="quiz">
-            <input type="radio" id="martialArts" name='q1' value="wrong" checked>
+            <input type="radio" id="martialArts" name='q1' value="Wrong" checked>
             <label for="martialArts">Martial Arts</label><br>
-            <input type="radio" id="fitness" name='q1' value="correct">
+            <input type="radio" id="fitness" name='q1' value="Correct">
             <label for="fitness">Fitness</label><br>
-            <input type='radio' id='painting' name='q1' value='wrong'> <label for='painting'>Painting</label><br>
+            <input type='radio' id='painting' name='q1' value='Wrong'> <label for='painting'>Painting</label><br>
          <h6 id='question2'>Question 2:</h6>
-            <input type= 'radio'id='netflix' name='q2' value='wrong' checked> <label for='netflix'>Netflix Shows</label><br>
-            <input type='radio' id='gaming' name='q2' value='correct'>
+            <input type= 'radio'id='netflix' name='q2' value='Wrong' checked> <label for='netflix'>Netflix Shows</label><br>
+            <input type='radio' id='gaming' name='q2' value='Correct'>
             <label for='gaming'> Gaming</label><br>
-            <input type='radio' id='basketball' name='q2' value='wrong'> <label for='basketball'>Basketball</label><br>
+            <input type='radio' id='basketball' name='q2' value='Wrong'> <label for='basketball'>Basketball</label><br>
           </div>
           <div>
-            <button id="submithob" onclick='getQuizValue()'>Submit</button>
+            <button id="submithob" onclick='getQuizValue(); getQuizValue2()'>Submit</button>
           <div>
         
-      <div id="results"></div>
+      <div id="result1"></div>
+      <div id="result2"></div>
     </article>
     <img src= 'images/Elephant_Logo.png' id='logo'>
     <script src="script.js"></script>
