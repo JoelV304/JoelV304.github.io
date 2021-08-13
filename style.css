@@ -83,6 +83,7 @@ a:hover {
 #subbutton {
   background-color: #1A936F;
   display: inline;
+  color: black;
 }
 .cornell {
   width: 4.5%;
@@ -109,6 +110,7 @@ a:hover {
   height: 8%;
   width: 10%;
   margin: 0;
+  max-height: 8%;
 }
 table {
   margin: auto;
@@ -190,6 +192,7 @@ th {
 }
 #submithob {
   background-color: #1A936F;
+  color: black;
 }
 .footer {
   position: fixed;
