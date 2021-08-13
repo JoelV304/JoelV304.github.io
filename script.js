@@ -17,26 +17,32 @@ function getFormValue() {
 function linkGrow() {
   var linkGrow = document.getElementById('linkedin').style.width = '5%'
   var linkGrow = document.getElementById('linkedin').style.height = '5%'
+  var linkGrow = document.getElementById('linkedin').style.transitionDuration = '0.15s'
 }
 function linkShrink() {
   var linkShrink = document.getElementById('linkedin').style.width = '4%'
   var linkShrink = document.getElementById('linkedin').style.height = '4%'
+  var linkShrink = document.getElementById('linkedin').style.transitionDuration = '0.15s'
 }
 function youGrow() {
   var youGrow = document.getElementById('youtube').style.width = '6.5%'
   var youGrow = document.getElementById('youtube').style.height = '6.5%'
+  var youGrow = document.getElementById('youtube').style.transitionDuration = '0.15s'
 }
 function youShrink() {
   var youShrink = document.getElementById('youtube').style.width = '5.5%'
   var youShrink = document.getElementById('youtube').style.height = '5.5%'
+  var youShrink = document.getElementById('youtube').style.transitionDuration = '0.15s'
 }
 function instaGrow() {
-  var instaGrow = document.getElementById('insta').style.width = '6%'
-  var instaGrow = document.getElementById('insta').style.height = '6%'
+  var instaGrow = document.getElementById('insta').style.width = '5.5%'
+  var instaGrow = document.getElementById('insta').style.height = '5.5%'
+  var instaGrow = document.getElementById('insta').style.transitionDuration = '0.15s'
 }
 function instaShrink() {
   var instaShrink = document.getElementById('insta').style.width = '5%'
   var instaShrink = document.getElementById('insta').style.height = '5%'
+  var instaShrink = document.getElementById('insta').style.transitionDuration = '0.15s'
 }
 function getQuizValue() {
   var answer = document.getElementsByName('q1');
