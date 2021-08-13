@@ -12,6 +12,7 @@ function getFormValue() {
   formDel.remove();
   var buttonDel = document.getElementById("subbutton");
   buttonDel.remove();
+  var brDel= document.getElementById('formBreak');brDel.remove()
 }
 function linkGrow() {
   var linkGrow = document.getElementById('linkedin').style.width = '5%'
