@@ -97,6 +97,8 @@ a:hover {
 }
 table {
   margin: auto;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 td {
   text-align: center;
@@ -109,7 +111,6 @@ th {
   width: 40%;
   height: 20%;
   padding-top: 0px;
-  margin-top: 10px;
   max-height: 20%;
 }
 .quizForm {
