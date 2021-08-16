@@ -41,21 +41,6 @@ article {
   color: white;
   background-color: rgba(0,0,0,0.5)
 }
-#personal  {
-  width: 30%;
-  height: 30%
-}
-#uzi  {
-  position: relative;
-  width: 30%;
-  height: 10%;
-  padding: 20px 20px;
-}
-#cudi {
-  width: 30%;
-  height: 30%;
-  margin-right: 7%
-}
 button {
   height: 30px;
   width: 100px;
