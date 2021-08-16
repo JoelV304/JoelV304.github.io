@@ -7,6 +7,7 @@ header {
 }
 #grow {
   border-radius: 20px;
+  border: solid white 1px;
 }
 h1 {
   font-size: 60px;
