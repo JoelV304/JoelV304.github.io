@@ -7,16 +7,27 @@ function hoverShrink() {
   var shrink = document.getElementById('grow').style.transitionDuration = '0.15s'
 }
 function getFormValue() {
+  let currentHour = (new Date().getHours())
   var fname = document.getElementById('fname').value;
+  if (currentHour >= 19) {
+      document.getElementById("nameDisplay").innerHTML = "Good evening";
+    }
+    else if (currentHour >= 12) {
+      document.getElementById('nameDisplay').innerHTML = 'Good afternoon'
+    } else if (currentHour >= 5) {
+      document.getElementById('nameDisplay').innerHTML = 'Good morning'
+    } else {
+      document.getElementById('nameDisplay').innerHTML = 'Go to bed'
+    }
   if (fname == '') {
-    document.getElementById('nameDisplay').innerHTML += ',   mystery person!';
-  }
-  else if (fname == 'Joel Valerio') {
-    document.getElementById('nameDisplay').innerHTML += ',   Creator!'
-  }
-  else {
-    document.getElementById('nameDisplay').innerHTML += ', ' + fname + '!';
-  }
+      document.getElementById('nameDisplay').innerHTML += ',   stranger!';
+    }
+    else if (fname == 'Joel Valerio') {
+      document.getElementById('nameDisplay').innerHTML += ',   Creator!'
+    }
+    else {
+      document.getElementById('nameDisplay').innerHTML += ', ' + fname + '!';
+    }
   var formDel = document.getElementById("form");
   formDel.remove();
   var buttonDel = document.getElementById("subbutton");
@@ -68,35 +79,4 @@ function getQuizValue2() {
       document.getElementById("result2").innerHTML
         = "Question 2: " + answer2[i].value;
   }
-}
-let dayOfWeek = (new Date().getDay())
-switch (dayOfWeek) {
-  case 1:
-    console.log("Happy Monday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Monday";
-    break;
-  case 2:
-    console.log("Happy Tuesday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Tuesday";
-    break;
-  case 3:
-    console.log("Happy Wednesday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Wednesday";
-    break;
-  case 4:
-    console.log("Happy Thursday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Thursday";
-    break;
-  case 5:
-    console.log("Happy Friday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Friday";
-    break;
-  case 6:
-    console.log("Happy Saturday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Saturday";
-    break;
-  case 0:
-    console.log("Happy Sunday");
-    document.getElementById("nameDisplay").innerHTML = "Happy Sunday";
-    break;
 }
