@@ -45,13 +45,13 @@ function linkShrink() {
   var linkShrink = document.getElementById('linkedin').style.transitionDuration = '0.15s'
 }
 function youGrow() {
-  var youGrow = document.getElementById('youtube').style.width = '8.5%'
-  var youGrow = document.getElementById('youtube').style.height = '8.5%'
+  var youGrow = document.getElementById('youtube').style.width = '5%'
+  var youGrow = document.getElementById('youtube').style.height = '5%'
   var youGrow = document.getElementById('youtube').style.transitionDuration = '0.15s'
 }
 function youShrink() {
-  var youShrink = document.getElementById('youtube').style.width = '8%'
-  var youShrink = document.getElementById('youtube').style.height = '8%'
+  var youShrink = document.getElementById('youtube').style.width = '4.5%'
+  var youShrink = document.getElementById('youtube').style.height = '4.5%'
   var youShrink = document.getElementById('youtube').style.transitionDuration = '0.15s'
 }
 function instaGrow() {

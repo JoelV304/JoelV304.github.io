@@ -8,6 +8,7 @@ header {
 #grow {
   border-radius: 20px;
   border: solid white 1px;
+  margin: 0 auto;
 }
 h1 {
   font-size: 60px;
@@ -22,16 +23,16 @@ li  {
   padding: 15px 25px;
 }
 #insta  {
-  width: 5%;
-  height: 5%;
+  width: 4.5%;
+  height: 4.5%;
 }
 #linkedin  {
   width: 4.5%;
   height: 4.5%;
 }
 #youtube  {
-  width: 8%;
-  height: 8%;
+  width: 4.5%;
+  height: 4.5%;
   padding: 0px;
 }
 article {
@@ -54,10 +55,12 @@ form{
 }
 #firstUL {
   margin-bottom: 0;
+  text-align: center;
 }
 #secondUL {
   margin-top: 0;
   background-color: rgba(0,0,0,0.3);
+  text-align: center;
 }
 .link {
   color: white;
