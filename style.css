@@ -26,12 +26,13 @@ li  {
   height: 5%;
 }
 #linkedin  {
-  width: 4%;
-  height: 4%;
+  width: 4.5%;
+  height: 4.5%;
 }
 #youtube  {
-  width: 5.5%;
-  height: 5.5%;
+  width: 8%;
+  height: 8%;
+  padding: 0px;
 }
 article {
   text-align: center;
