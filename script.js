@@ -10,30 +10,36 @@ function getFormValue() {
   let currentHour = (new Date().getHours())
   var fname = document.getElementById('fname').value;
   if (currentHour >= 19) {
-      document.getElementById("nameDisplay").innerHTML = "Good evening";
-    }
-    else if (currentHour >= 12) {
-      document.getElementById('nameDisplay').innerHTML = 'Good afternoon'
-    } else if (currentHour >= 5) {
-      document.getElementById('nameDisplay').innerHTML = 'Good morning'
-    } else {
-      document.getElementById('nameDisplay').innerHTML = 'Go to bed'
-    }
+    document.getElementById("nameDisplay").innerHTML = "Good evening";
+  }
+  else if (currentHour >= 12) {
+    document.getElementById('nameDisplay').innerHTML = 'Good afternoon'
+  } else if (currentHour >= 5) {
+    document.getElementById('nameDisplay').innerHTML = 'Good morning'
+  } else {
+    document.getElementById('nameDisplay').innerHTML = 'Go to bed'
+  }
   if (fname == '') {
-      document.getElementById('nameDisplay').innerHTML += ',   stranger!';
-    }
-    else if (fname == 'Joel Valerio') {
-      document.getElementById('nameDisplay').innerHTML += ',   Creator!'
-    }
-    else {
-      document.getElementById('nameDisplay').innerHTML += ', ' + fname + '!';
-    }
+    document.getElementById('nameDisplay').innerHTML += ',   stranger!';
+  }
+  else if (fname == 'Joel Valerio') {
+    document.getElementById('nameDisplay').innerHTML += ',   Creator!'
+  }
+  else {
+    document.getElementById('nameDisplay').innerHTML += ', ' + fname + '!';
+  }
   var formDel = document.getElementById("form");
   formDel.remove();
   var buttonDel = document.getElementById("subbutton");
   buttonDel.remove();
   var brDel = document.getElementById('formBreak'); brDel.remove();
 }
+var enterSub = document.getElementById("fname");
+enterSub.addEventListener("keydown", function (e) {
+  if (e.code === "Enter") {
+    getFormValue();
+  }
+});
 function linkGrow() {
   var linkGrow = document.getElementById('linkedin').style.width = '5%'
   var linkGrow = document.getElementById('linkedin').style.height = '5%'
