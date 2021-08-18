@@ -86,3 +86,11 @@ function getQuizValue2() {
         = "Question 2: " + answer2[i].value;
   }
 }
+function getQuizValue3() {
+  var answer3 = document.getElementsByName('q3');
+  for (i = 0; i < answer3.length; i++) {
+    if (answer3[i].checked)
+      document.getElementById("result3").innerHTML
+        = "Question 3: " + answer3[i].value;
+  }
+}
