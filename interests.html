@@ -29,10 +29,13 @@
   </header>
   <body>
     <article>
+      <div id= 'container'>
+      <div id= 'music'>
       <h5>Here's a playlist of 100 songs I've liked recently:</h5>
       <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/everything/pl.u-DdANr6dFaR7bXEB"></iframe><br>
-        <h5>Guess some of my biggests interests while you listen!</h5>
+      </div>
           <div id="quiz">
+            <p id='guess'><i>Guess some of my hobbies while you listen!</i></p>
             <h6>Question 1:</h6>
             <input type="radio" id="martialArts" name='q1' value="Guess again!" checked>
             <label for="martialArts">Martial Arts</label><br>
@@ -49,13 +52,18 @@
             <input type='radio' id='kayaking' name='q3' value='Guess again!'> <label for='kayaking'>Kayaking</label><br>
             <input type='radio' id='hiking' name='q3' value='Correct!'>
             <label for='hiking'>Hiking</label><br>
-          </div>
-          <div>
+          <div id='subDiv'>
+            <br>
             <button id="submithob" onclick='getQuizValue(); getQuizValue2(); getQuizValue3()'>Submit</button>
-          <div>
+          </div>
+      </div>
+      <div>
       <div id="result1"></div>
       <div id="result2"></div>
-      <div id='result3'></div><br>
+      <div id='result3'></div>
+      </div>
+      <div id='clear'></div>
+      </div>
     </article>
     <div class='footer'>
     <img src= 'images/Elephant_Logo.png' id='logo'>

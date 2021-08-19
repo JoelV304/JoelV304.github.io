@@ -194,3 +194,27 @@ th {
   height: 3%;
   width: 3%;
 }
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+#music {
+    width: 65%;
+    float: left;
+    height: 60%;
+}
+#quiz {
+    width: 30%;
+    float: left;
+    height: 60%;
+    margin-left: 2%;
+}
+#clear {
+    clear: both;
+}
+#subDiv {
+  margin-bottom: 60px;
+}
+#guess {
+  font-size: 1rem;
+}
