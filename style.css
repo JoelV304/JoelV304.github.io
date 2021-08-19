@@ -194,8 +194,11 @@ th {
   height: 3%;
   width: 3%;
 }
+#intArt {
+  width: 80%;
+}
 #container {
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 #music {
